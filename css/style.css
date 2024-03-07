@@ -467,17 +467,11 @@ header {
 header.fixed {
   padding: 15px 0px;
 }
-/*----- Sticky Header End -----*/
-/*----- Header End -----*/
 
-/*_______________________________________________________
-// Home Page Style  //----------------------------
-_______________________________________________________*/
-/*----- Home Banner -----*/
 .home-banner {
   padding: 180px 0px 100px 0px;
   overflow: hidden;
-  background: url(/web/20221226131316im_/https://swincoin.io/fonts/banner-bg.svg) no-repeat center /
+  background: url(../img/banner-bg.svg) no-repeat center /
     cover;
   background-attachment: fixed;
 }
