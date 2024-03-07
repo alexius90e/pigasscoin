@@ -590,7 +590,7 @@ ul.check-list li p {
 
 /*----- Feature Section -----*/
 .bg-pattern {
-  background: url(/web/20221226131316im_/https://swincoin.io/img/wave.png);
+  background: url(../img/wave.png);
   background-position: center 200px;
   background-repeat: no-repeat;
 }
