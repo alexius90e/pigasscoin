@@ -471,8 +471,7 @@ header.fixed {
 .home-banner {
   padding: 180px 0px 100px 0px;
   overflow: hidden;
-  background: url(../img/banner-bg.svg) no-repeat center /
-    cover;
+  background: url(../img/banner-bg.svg) no-repeat center / cover;
   background-attachment: fixed;
 }
 .banner-heading {
@@ -840,7 +839,7 @@ ul.check-list li p {
 
 /*----- Ico Apps Section -----*/
 .ico-apps {
-  background: url(/web/20221226131316im_/https://swincoin.io/fonts/ico-apps-bg.svg) no-repeat;
+  background: url(../img/ico-apps-bg.svg) no-repeat;
   background-attachment: fixed;
   overflow: hidden;
 }
