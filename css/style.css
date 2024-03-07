@@ -731,7 +731,7 @@ ul.check-list li p {
 
 /*----- Token Sale Section -----*/
 .token-sale {
-  background: url(/web/20221226131316im_/https://swincoin.io/fonts/tokensale.svg) no-repeat;
+  background: url(../img/tokensale.svg) no-repeat;
   background-attachment: fixed;
 }
 .token-graphic-detail ul li {
