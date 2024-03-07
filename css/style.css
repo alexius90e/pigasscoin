@@ -2209,7 +2209,7 @@ img.cake-img {
     margin-bottom: 30px;
   }
   #preloader {
-    background: url(/web/20221226131316im_/https://swincoin.io/img/logo2_m.png) center no-repeat
+    background: url(../img/logo2_m.png) center no-repeat
       #470fac !important;
     background-size: 80px 80px !important;
   }
