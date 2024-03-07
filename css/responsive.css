@@ -532,7 +532,7 @@
   }
   .menu > ul > li > a.tw-link::after {
     content: '';
-    background: url(/web/20221226131316im_/https://swincoin.io/img/tw-m.png) no-repeat;
+    background: url(../img/tw.png) no-repeat;
     top: 0 !important;
     width: 30px;
     height: 30px;
@@ -541,7 +541,7 @@
   }
   .menu > ul > li > a.tg-link::after {
     content: '';
-    background: url(/web/20221226131316im_/https://swincoin.io/img/tg-m.png) no-repeat;
+    background: url(../img/tg.png) no-repeat;
     top: 0 !important;
     width: 30px;
     height: 30px;
@@ -897,9 +897,6 @@
   }
   .footer .col-md-6 img {
     width: 140px;
-  }
-  header .logo {
-    display: none;
   }
   .navbar {
     left: 0;
