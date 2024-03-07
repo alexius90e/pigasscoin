@@ -565,6 +565,7 @@ ul.check-list li p {
   position: relative;
 }
 .rotation-img {
+  animation: rotation 15s infinite linear;
   -webkit-animation: rotation 15s infinite linear;
 }
 @keyframes ripple {
@@ -578,7 +579,7 @@ ul.check-list li p {
     transform: scale(0.8);
   }
 }
-@-webkit-keyframes rotation {
+@keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
   }
@@ -1475,8 +1476,7 @@ _______________________________________________________*/
   padding: 5px 14px;
   border-radius: 5px;
 }
-.archives ul {
-}
+
 .archives ul li {
   border-bottom: 1px solid;
 }
