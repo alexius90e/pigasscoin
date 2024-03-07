@@ -38,7 +38,7 @@
 * FOOTER
 */
 
-@import url('https://web.archive.org/web/20221226131316cs_/https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -52,7 +52,7 @@ html {
 body {
   line-height: 24px;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
 }
@@ -895,7 +895,7 @@ ul.check-list li p {
 }
 .qus-title {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 /*----- FAQ Section End -----*/
@@ -1512,7 +1512,7 @@ _______________________________________________________*/
 }
 .blog-list-title {
   font-size: 24px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -1592,7 +1592,7 @@ _______________________________________________________*/
 }
 .blog-detail-content h2 {
   font-size: 28px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 15px;
 }
 .blog-detail-content p {
@@ -1795,7 +1795,7 @@ _______________________________________________________*/
 }
 .roadmap-date {
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 8px;
 }
 .roadmap-content-box:nth-child(2n + 0) .roadmap-main-content {
