@@ -1,0 +1,120 @@
+@charset "UTF-8";
+html,body
+{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.row_out
+{
+	width:200px;
+	height:200px;
+	opacity:1;
+}
+
+.listtopie-initialized
+{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height:100%;
+	vertical-align: middle;  
+	text-align:center;
+}
+
+.listtopie-item
+{
+	display:none;
+}
+
+.listtopie-svg
+{
+	float:left;
+	width:100%;
+	height:100%;
+}
+
+.listtopie-list
+{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+.listtopie-list > li
+{
+	overflow:auto;
+}
+
+.listtopie-link
+{
+	font-family:'Arial',sans-serif;
+	display:block;
+	padding:0px 0px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.listtopie-link-color-out
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.listtopie-link-color
+{
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.listtopie-info-block
+{
+	position:absolute;
+	width:auto;
+	height:auto;
+	border:0px green solid;
+	padding:10px;
+	margin:10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:#222222;
+	color:#fff;
+	font-size:14px;
+	font-family:'Arial',sans-serif;
+	min-width:100px;
+	-moz-opacity: 0;
+  	-khtml-opacity: 0;
+	opacity:0;
+	
+}
+/*
+     FILE ARCHIVED ON 13:13:18 Dec 26, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:36:39 Mar 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.274
+  exclusion.robots.policy: 0.253
+  cdx.remote: 0.194
+  esindex: 0.013
+  LoadShardBlock: 267.79 (6)
+  PetaboxLoader3.datanode: 236.23 (7)
+  PetaboxLoader3.resolve: 180.495 (2)
+  load_resource: 203.118
+*/
