@@ -529,7 +529,7 @@ _______________________________________________________*/
   font-size: 16px;
 }
 ul.check-list {
-  max-width: 500px;
+  max-width: 760px;
   font-size: 16px;
 }
 ul.check-list li {
@@ -2558,22 +2558,24 @@ iframe {
     margin: 0 auto 20px;
   }
 }
-/*
-     FILE ARCHIVED ON 13:13:16 Dec 26, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:24:58 Mar 07, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.244
-  exclusion.robots.policy: 0.222
-  cdx.remote: 0.176
-  esindex: 0.018
-  LoadShardBlock: 536.05 (6)
-  PetaboxLoader3.resolve: 353.875 (4)
-  PetaboxLoader3.datanode: 266.113 (7)
-  load_resource: 210.698
-*/
+@-webkit-keyframes chartjs-render-animation {
+  from {
+    opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes chartjs-render-animation {
+  from {
+    opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.chartjs-render-monitor {
+  -webkit-animation: chartjs-render-animation 0.001s;
+  animation: chartjs-render-animation 0.001s;
+}
