@@ -2131,7 +2131,7 @@ footer.bg-pattern {
   position: relative;
 }
 .menu > ul > li > a.tw-link::after {
-  content: url(/web/20221226131316im_/https://swincoin.io/img/tw.png);
+  content: url(../img/tw.png);
   position: absolute;
   left: -24px;
   display: block;
@@ -2141,7 +2141,7 @@ footer.bg-pattern {
   top: 10px;
 }
 .menu > ul > li > a.tg-link::after {
-  content: url(/web/20221226131316im_/https://swincoin.io/img/tg.png);
+  content: url(../img/tg.png);
   position: absolute;
   left: -24px;
   display: block;
