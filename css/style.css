@@ -4,45 +4,16 @@
 @import url('./jquery.listtopie.css');
 @import url('./animations.css');
 
-/* 
-* Google Fonts
-
-* BASIC STYLE
-  - General Style    
-  - Headings Style    
-  - Button Style    
-  - Form Style   
-
-* HEADER
-
-* CONTANT
-  - Banner Section
-  - Work Section
-  - Feature Section
-  - Timeline Section
-  - Team Section
-  - Token Sale Section
-  - Blog Section
-  - Ico Apps
-  - FAQ Section
-  - Home Tow Page
-  - About Page
-  - Blog List Page
-  - Blog Detail Page
-  - Team Page
-  - Feature Page
-  - Roadmap Page
-  - Contact Page
-  - Token Sale Page
-
-* FOOTER
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 * {
+  --main-font-family: 'Fugaz One', sans-serif;
+  /* --main-font-family: 'Marhey', sans-serif; */
   box-sizing: border-box;
 }
+
 body,
 html {
   height: 100%;
@@ -129,11 +100,14 @@ button {
   font-family: 'Poppins', sans-serif;
   padding-bottom: 3px;
 }
+
 .heading-title {
+  font-family: var(--main-font-family);
   font-size: 40px;
   font-weight: 600;
   padding-bottom: 18px;
 }
+
 .heading-des {
   max-width: 580px;
   margin: 0 auto;
@@ -474,10 +448,13 @@ header.fixed {
   background: url(../img/banner-bg.svg) no-repeat center / cover;
   background-attachment: fixed;
 }
+
 .banner-heading {
+  font-family: var(--main-font-family);
   font-size: 50px;
   padding-bottom: 10px;
 }
+
 .banner-des {
   font-size: 16px;
   margin-bottom: 30px;
@@ -500,15 +477,37 @@ header.fixed {
   }
 }
 /*----- Home Banner End -----*/
+
 .video {
   margin-top: 100px;
 }
+
 .video .video__wrap {
   max-width: 920px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.video .video__wrap p {
+  margin-bottom: 22px;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+@media (max-width: 991px) {
+  .video .video__wrap p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+.video .video__wrap p:last-child {
+  margin-bottom: 0;
+}
+
 /*----- Work Section -----*/
+
 .work-part {
   overflow: hidden;
 }
@@ -1877,7 +1876,6 @@ button.close {
   height: 500px;
 }
 
-
 .token-sele {
   overflow: hidden;
 }
@@ -2185,8 +2183,7 @@ img.cake-img {
     margin-bottom: 30px;
   }
   #preloader {
-    background: url(../img/logo2_m.png) center no-repeat
-      #470fac !important;
+    background: url(../img/logo2_m.png) center no-repeat #470fac !important;
     background-size: 80px 80px !important;
   }
 }

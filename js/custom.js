@@ -292,22 +292,3 @@ $(function() {
 /* -------- Google Map End --------*/
 
 }
-/*
-     FILE ARCHIVED ON 13:13:25 Dec 26, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:17:06 Mar 07, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.095
-  exclusion.robots.policy: 0.083
-  cdx.remote: 0.098
-  esindex: 0.013
-  LoadShardBlock: 1441.835 (6)
-  PetaboxLoader3.datanode: 1163.137 (7)
-  load_resource: 132.711
-  PetaboxLoader3.resolve: 58.821
-*/
